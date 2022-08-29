@@ -1,0 +1,123 @@
+/* =============== DATA & ANALYTiCS =============== */
+
+.data-analytics__content {
+    background-color: var(--text-color-dark);
+    border-radius: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.data-analytics__content-box {
+    padding: 1rem;
+}
+
+.data-analytics__content-graph-box {
+    grid-template-columns: 4fr 5fr;
+}
+
+.data-analytics__content-graph {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--body-color);
+}
+
+
+.data-analytics__content-graph-desc {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.25rem 0 0.1rem 1rem;
+
+    border-radius: 5px;
+    border-left: 4px solid black;
+}
+
+.border-blue {
+    border-color: var(--blue);
+}
+
+.border-red {
+    border-color: var(--red);
+}
+
+.border-yellow {
+    border-color: var(--yellow);
+}
+
+.data-analytics__content-graph-text {
+    font-size: 10px;
+}
+
+.data-analytics__graph-belum {
+    fill: var(--blue);
+}
+
+.data-analytics__graph-sudah {
+    fill: var(--red);
+}
+
+.data-analytics__graph-customer {
+    fill: var(--yellow);
+}
+
+.data-analytics__graph-img {
+    width: 100%;
+}
+
+.data-analytics__content-percent {
+    padding-left: 2rem;
+}
+
+.data-analytics__content-percent-box {
+    margin-bottom: 1rem;
+}
+
+.data-analytics__content-percent-desc {
+    grid-template-columns: auto 1fr auto;
+    justify-content: center;
+    margin-bottom: 0.25rem;
+}
+
+.data-analytics__content-percent-icon {
+    font-size: 1.25rem;
+}
+
+.data-analytics__content-percent-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.data-analytics__content-percent-quantity {
+    font-size: 13px;
+}
+
+.data-analytics__content-percent-bar,
+.data-analytics__percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.data-analytics__content-percent-bar {
+    background-color: var(--body-color);
+}
+
+.data-analytics__percentage {
+    display: block;
+}
+
+.percent-belum {
+    width: 43%;
+    background-color: var(--blue);
+}
+.percent-sudah {
+    width: 37%;
+    background-color: var(--red);
+}
+.percent-pria {
+    width: 43%;
+    background-color: var(--yellow);
+}
+.percent-wanita {
+    width: 37%;
+    background-color: var(--yellow);
+}

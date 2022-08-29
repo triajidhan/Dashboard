@@ -1,0 +1,64 @@
+/* =============== NAVBAR =============== */
+
+.navbar {
+    background-color: var(--second-body-color);
+}
+
+.navbar__brand {
+    padding: 2rem;
+    height: 11.5rem;
+}
+
+.navbar__brand-toggle {
+    padding: 2rem 1rem;
+}
+
+.navbar__brand-logo {
+    width: 3.75rem;
+}
+
+.navbar__brand-title,
+.navbar__brand-subtitle {
+    margin-top: .5rem;
+    font-size: 12px;
+}
+
+.navbar__brand-title {
+    color: var(--text-color-dark);
+}
+
+.navbar__brand-subtitle {
+    color: var(--text-color-dark-light);
+}
+
+.navbar__link {
+    padding: 1rem 1.8rem;
+    color: var(--text-color-dark);
+    border-left: 4px solid var(--second-body-color);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    cursor: pointer;
+}
+
+.navbar__link-toggle {
+    padding: 1rem 1.6rem;
+}
+
+.navbar__link:hover {
+    background-color: var(--second-body-color-alt);
+    border-left: 4px solid var(--text-color-dark);
+}
+
+.navbar__link-title {
+    margin-left: .75rem;
+    font-size: 12px;
+}
+
+.navbar__link-icon {
+    align-self: center;
+    font-size: 17px;
+}
+
+.navbar__link-icon-down {
+    justify-self: end;
+}

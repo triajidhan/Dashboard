@@ -1,0 +1,49 @@
+/* =============== BREADCRUMP =============== */
+
+.breadcrump {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: var(--text-color-dark);
+}
+
+.breadcrump__menu-toggle {
+    background-color: var(--second-body-color-alt);
+    padding: .3rem .55rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.breadcrump__menu-icon {
+    color: var(--text-color-dark);
+    font-size: 17px;
+}
+
+.breadcrump__title {
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin-left: 1.5rem;
+}
+
+.breadcrump__log-out-text {
+    color: var(--text-color-light);
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-semi-bold);
+}
+
+.breadcrump__log-out-icon {
+    margin-right: .5rem;
+    font-size: 20px;
+}
+
+.dashboard__header {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dashboard__crm {
+    justify-self: end;
+}
