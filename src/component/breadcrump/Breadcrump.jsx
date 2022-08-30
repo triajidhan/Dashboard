@@ -4,7 +4,7 @@ import $ from 'jquery';
 import './Breadcrump.css';
 
 
-function Toggle() {
+function ToggleMenu() {
     function handleClick() {
         $('.app').toggleClass("app-toggle");
         $('.navbar__link').toggleClass("navbar__link-toggle");
@@ -23,7 +23,7 @@ function Toggle() {
 const Breadcrump = () => {
     return (
         <div className='breadcrump'>
-            <Toggle />
+            <ToggleMenu />
 
             <div className='breadcrump__title'>
                 <a href='#'><strong>Loan Market</strong> / Dashboard</a>

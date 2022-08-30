@@ -121,3 +121,15 @@
     width: 37%;
     background-color: var(--yellow);
 }
+
+@media screen and (max-width: 1200px) {
+    .data-analytics__content {
+        grid-template-columns: 1fr;    
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .data-analytics__content-graph {
+        grid-template-columns: 1fr;
+    }
+}

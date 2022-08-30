@@ -61,4 +61,23 @@
 
 .navbar__link-icon-down {
     justify-self: end;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.news__open {
+    transform: rotate(-180deg);
+}
+
+.news-toggle {
+    display: none;
+}
+
+.navbar__link-dropdown-list {
+    padding-left: 3rem;
+}
+
+.navbar__link-dropdown:hover + .navbar__link-dropdown-list {
+    background-color: var(--second-body-color-alt);
+    border-left: 4px solid var(--text-color-dark);
 }

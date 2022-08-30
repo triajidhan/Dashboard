@@ -13,7 +13,6 @@
 .dashboard__content-user-box {
     background-color: var(--text-color-dark);
     padding: 2.2rem 1rem;
-    max-width: 8.8rem;
     border-radius: 15px;
     text-align: center;
 }
@@ -46,7 +45,6 @@
 .dashboard__content-admin-box {
     grid-template-columns: repeat(2, auto);
     background-color: var(--text-color-dark);
-    max-width: 10.5rem;
     padding: 0 0.75rem;
     border-radius: 10px;
     align-items: center;
@@ -80,4 +78,23 @@
 
 .dashboard__crm-icon {
     margin-left: .5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .dashboard__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dashboard__content-admin, .dashboard__content-user {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .dashboard__content-admin,
+    .dashboard__content-user {
+        grid-template-columns: 1fr;
+    }
 }
