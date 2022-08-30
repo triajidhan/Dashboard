@@ -1,25 +1,25 @@
 import React from 'react'
-import './App.css';
-import { Breadcrump, Dashboard, DataAnalytics, Footer, Navbar } from './component/index';
+import SuperAdmin from "./page/super-admin/SuperAdmin";
+import Home from "./page/home/Home";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 
-function App() {
-
+const App = () => {
   return (
-    <div className='app'>
-      <Navbar />
-      <main>
-        <Breadcrump />
-        <Dashboard />
-        <DataAnalytics />
-        <Footer />
-      </main>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} ></Route>
+        <Route path="/super-admin" element={<SuperAdmin />} ></Route>
 
-  );
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
 
-
+export default App

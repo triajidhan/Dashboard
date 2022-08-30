@@ -1,0 +1,10 @@
+.super-admin {
+    display: flex;
+    margin-bottom: -3rem;
+}
+
+main {
+    background-color: var(--body-color);
+    height: 100vh;
+    overflow: scroll;
+}

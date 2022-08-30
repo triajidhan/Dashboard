@@ -46,4 +46,5 @@
 
 .dashboard__crm {
     justify-self: end;
+    visibility: hidden;
 }

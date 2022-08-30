@@ -1,13 +1,10 @@
 .app {
-  display: grid;
-  grid-template-columns: 17rem auto;
+  display: flex;
   margin-bottom: -3rem;
-}
-
-.app-toggle {
-  grid-template-columns: 75px auto;
 }
 
 main {
   background-color: var(--body-color);
+  height: 100vh;
+  overflow: scroll;
 }

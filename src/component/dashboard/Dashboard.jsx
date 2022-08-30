@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react'
 import { BiUserCircle, BiDollarCircle, BiUserVoice } from 'react-icons/bi';
 import { FiArrowRight } from 'react-icons/fi';
+import $ from 'jquery';
 import './Dashboard.css';
 
 const DashboardAdmin = (props) => {
@@ -15,9 +16,19 @@ const DashboardAdmin = (props) => {
     )
 }
 
+
+
 const Dashboard = () => {
+
+    function crm() {
+        // let currentURL = window.location.pathname;
+        if (navigator.cookieEnabled == true) {
+            $('.dashboard__crm').css("visibility", "hidden")
+        }
+    }
+
     return (
-        <section className='dashboard section'>
+        <section className='dashboard section' onLoad={crm}>
             <div className='dashboard__header grid'>
                 <div>
                     <div className='section__title'>Dashboard</div>
@@ -70,5 +81,6 @@ const Dashboard = () => {
         </section>
     )
 }
+
 
 export default Dashboard

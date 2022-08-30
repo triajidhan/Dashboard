@@ -2,6 +2,11 @@
 
 .navbar {
     background-color: var(--second-body-color);
+    width: 35rem;
+}
+
+.navbar-toggle {
+    width: auto;
 }
 
 .navbar__brand {

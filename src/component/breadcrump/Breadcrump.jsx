@@ -6,7 +6,7 @@ import './Breadcrump.css';
 
 function ToggleMenu() {
     function handleClick() {
-        $('.app').toggleClass("app-toggle");
+        $('.navbar').toggleClass("navbar-toggle");
         $('.navbar__link').toggleClass("navbar__link-toggle");
         $('.navbar__brand').toggleClass("navbar__brand-toggle");
         $('.nav-toggle').toggle();
