@@ -5,6 +5,10 @@
 
 main {
     background-color: var(--body-color);
-    height: 100vh;
-    overflow: scroll;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.main__content {
+    height: 92vh;
+    overflow-y: scroll;
 }

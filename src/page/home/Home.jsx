@@ -10,9 +10,11 @@ function Home() {
             <Navbar />
             <main>
                 <Breadcrump />
-                <Dashboard />
-                <DataAnalytics />
-                <Footer />
+                <div className='main__content'>
+                    <Dashboard />
+                    <DataAnalytics />
+                    <Footer />
+                </div>
             </main>
         </div>
 

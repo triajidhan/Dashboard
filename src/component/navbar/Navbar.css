@@ -3,6 +3,7 @@
 .navbar {
     background-color: var(--second-body-color);
     width: 35rem;
+    height: 100vh;
 }
 
 .navbar-toggle {

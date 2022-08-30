@@ -2,6 +2,10 @@
 
 /* Dashboard User*/
 
+.dashboard {
+    margin-top: 4rem;
+}
+
 .dashboard__content {
     grid-template-columns: 6fr 7fr;
 }
